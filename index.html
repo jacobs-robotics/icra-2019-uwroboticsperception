@@ -1,0 +1,137 @@
+---
+layout: page
+title: UNDERWATER ROBOTICS PERCEPTION
+subtitle: WORKSHOP - IEEE ICRA 2019 <br> Montreal, Quebec May 24th, 2019
+use-site-title: true
+bigimg: ["/img/uw_bg_1.jpg","/img/CADDY_bts_cetvrtak_138.jpg","/img/pladypus.jpg","/img/gazebo_dexrov.png","/img/rov_dexrov.jpg","/img/sonar_caddy.png"]
+---
+
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+html {
+  box-sizing: border-box;
+}
+
+
+#wrapper {
+    width: 95%;
+    text-align: center;
+    overflow: hidden; /* add this to contain floated children */
+}
+#first {
+    width: 50%;
+    float:left; /* add this */
+}
+#first_b {
+    width: 30%;
+    float:left; /* add this */
+}
+#second {
+    overflow: hidden /* add this */
+}
+#second_b {
+	width: 30%;
+    overflow: hidden /* add this */
+}
+#third {
+    overflow: hidden /* add this */
+}
+#third_b {
+	width: 30%;
+    overflow: hidden /* add this */
+}
+.center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+.noBorder {
+    border:none !important;
+}
+</style>
+</head>
+
+<!--img src="/img/all_partners.png" alt="all_partners" style="width:100%"-->
+
+<!--table border="0">
+  <tr class="noBorder">
+    <td class="noBorder"><a href="http://www.cmre.nato.int/"><img src="/img/cmre_2.png" alt="log_cmre" /></td>
+    <td class="noBorder"><a href="https://robotik.dfki-bremen.de/en/startpage.html"><img src="/img/dfki_2.png" alt="logo_dfki" /></a></td>
+  </tr>
+</table-->
+
+<div id="wrapper" class="center">
+    <div id="first"><a href="http://robotics.jacobs-university.de/"><img src="/img/Logo_Jacobs_University.png" alt="Logo1" /></a></div>
+    <div id="second"><a href="http://www.issia.cnr.it/wp/"><img src="/img/issia-cnr-logo.png" alt="Logo2" /></a></div>
+</div>
+
+<div class="posts-list">
+  {% for post in paginator.posts %}
+  <article class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+	  <h2 class="post-title">{{ post.title }}</h2>
+
+	  {% if post.subtitle %}
+	  <h3 class="post-subtitle">
+	    {{ post.subtitle }}
+	  </h3>
+	  {% endif %}
+    </a>
+
+    <p class="post-meta">
+      Posted on {{ post.date | date: "%B %-d, %Y" }}
+    </p>
+
+    <div class="post-entry-container">
+      {% if post.image %}
+      <div class="post-image">
+        <a href="{{ post.url | prepend: site.baseurl }}">
+          <img src="{{ post.image }}">
+        </a>
+      </div>
+      {% endif %}
+	  <div class="post-entry">
+          <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
+      </div>
+      <!--div class="post-entry">
+        {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
+        {% assign excerpt_word_count = post.excerpt | number_of_words %}
+        {% if post.content != post.excerpt or excerpt_word_count > site.excerpt_length %}
+          <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
+        {% endif %}
+      </div-->
+    </div>
+
+    {% if post.tags.size > 0 %}
+    <div class="blog-tags">
+      Tags:
+      {% if site.link-tags %}
+      {% for tag in post.tags %}
+      <a href="{{ site.baseurl }}/tags#{{- tag -}}">{{- tag -}}</a>
+      {% endfor %}
+      {% else %}
+        {{ post.tags | join: ", " }}
+      {% endif %}
+    </div>
+    {% endif %}
+
+   </article>
+  {% endfor %}
+</div>
+
+{% if paginator.total_pages > 1 %}
+<ul class="pager main-pager">
+  {% if paginator.previous_page %}
+  <li class="previous">
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+  </li>
+  {% endif %}
+  {% if paginator.next_page %}
+  <li class="next">
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+  </li>
+  {% endif %}
+</ul>
+{% endif %}
