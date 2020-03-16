@@ -4,7 +4,7 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "http://icra-2019-uwroboticsperception.ge.issia.cnr.it/"
+url: "https://jacobs-robotics.github.io/icra-2019-uwroboticsperception/"
 baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
@@ -23,18 +23,18 @@ bigimg: ["/img/uw_bg_1.jpg","/img/CADDY_bts_cetvrtak_138.jpg","/img/pladypus.jpg
 
 # List of links in the navigation bar
 navbar-links:
-  Overview: "http://icra-2019-uwroboticsperception.ge.issia.cnr.it/2019-01-12-overview/"
-  #Speakers: "http://icra-2019-uwroboticsperception.ge.issia.cnr.it/2019-01-10-speakers/"
+  Overview: "https://jacobs-robotics.github.io/icra-2019-uwroboticsperception/2019-01-12-overview/"
+  #Speakers: "https://jacobs-robotics.github.io/icra-2019-uwroboticsperception/2019-01-10-speakers/"
   Program:
-    - Speakers: "http://icra-2019-uwroboticsperception.ge.issia.cnr.it/2019-01-10-speakers/" 
-    - Schedule: "http://icra-2019-uwroboticsperception.ge.issia.cnr.it/2019-01-09-program/"
-    - Presentations: "http://icra-2019-uwroboticsperception.ge.issia.cnr.it/2019-05-26-presentations/"
+    - Speakers: "https://jacobs-robotics.github.io/icra-2019-uwroboticsperception/2019-01-10-speakers/" 
+    - Schedule: "https://jacobs-robotics.github.io/icra-2019-uwroboticsperception/2019-01-09-program/"
+    - Presentations: "https://jacobs-robotics.github.io/icra-2019-uwroboticsperception/2019-05-26-presentations/"
   Papers:
-    - Authors Info: "http://icra-2019-uwroboticsperception.ge.issia.cnr.it/2019-01-06-papercall/"
-    - Accepted Papers: "http://icra-2019-uwroboticsperception.ge.issia.cnr.it/2019-04-17-acceptedpapers/"
-    - Best paper awards: "http://icra-2019-uwroboticsperception.ge.issia.cnr.it/2019-05-24-bestpapers/"
-  Events/Jobs: "http://icra-2019-uwroboticsperception.ge.issia.cnr.it/2019-05-25-events/"
-  Conclusions: "http://icra-2019-uwroboticsperception.ge.issia.cnr.it/2019-05-28-conclusions/"
+    - Authors Info: "https://jacobs-robotics.github.io/icra-2019-uwroboticsperception/2019-01-06-papercall/"
+    - Accepted Papers: "https://jacobs-robotics.github.io/icra-2019-uwroboticsperception/2019-04-17-acceptedpapers/"
+    - Best paper awards: "https://jacobs-robotics.github.io/icra-2019-uwroboticsperception/2019-05-24-bestpapers/"
+  Events/Jobs: "https://jacobs-robotics.github.io/icra-2019-uwroboticsperception/2019-05-25-events/"
+  Conclusions: "https://jacobs-robotics.github.io/icra-2019-uwroboticsperception/2019-05-28-conclusions/"
   Organizers: "organizers"
 
 # Image to show in the navigation bar - image must be a square (width = height)
