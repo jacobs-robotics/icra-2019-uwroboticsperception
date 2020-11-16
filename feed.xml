@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Underwater Robotics Perception Workshop - ICRA 2019</title>
+    <description>Full-day Workshop</description>
+    <link>http://icra-2019-uwroboticsperception.ge.issia.cnr.it/</link>
+    <atom:link href="http://icra-2019-uwroboticsperception.ge.issia.cnr.it//feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Workshop conclusions</title>
+        <description>
+          Take-aways, ideas discussed and future directions - 
+          First of all, we would like to thank all the people who collaborated to the workshop one way or another – presencially or remotely. All of your input served to have more productive discussions and to learn more about the state of the underwater robotics community. Approximately we had 40...
+        </description>
+        <pubDate>Tue, 28 May 2019 00:00:00 -0700</pubDate>
+        <link>http://icra-2019-uwroboticsperception.ge.issia.cnr.it//2019-05-28-conclusions/</link>
+        <guid isPermaLink="true">http://icra-2019-uwroboticsperception.ge.issia.cnr.it//2019-05-28-conclusions/</guid>
+      </item>
+    
+      <item>
+        <title>Presentations</title>
+        <description>
+          List of slides/archives from speakers and participants - 
+          Only slides/presentations made available for download are displayed. KEYNOTE TALKS Dr. Yogesh A. Girdhar - Woods Hole Oceanographic Institution Co-robotic Exploration in Underwater Environments Prof. Michael Kaess - CMU Robot Perception Lab Localization and Mapping with Imaging Sonar [PDF] Prof. Pere Ridao/Dr. Narcis Palomeras - University of Girona Real-time Laser...
+        </description>
+        <pubDate>Sun, 26 May 2019 00:00:00 -0700</pubDate>
+        <link>http://icra-2019-uwroboticsperception.ge.issia.cnr.it//2019-05-26-presentations/</link>
+        <guid isPermaLink="true">http://icra-2019-uwroboticsperception.ge.issia.cnr.it//2019-05-26-presentations/</guid>
+      </item>
+    
+      <item>
+        <title>Events/Jobs on Underwater Robotics</title>
+        <description>
+          Next events and open job positions on Underwater Robotics - 
+          Here we announce exciting coming events or open job positions on underwater robotics Breaking the Surface 2019 International Interdisciplinary Field Workshop of Marine Robotics and Applications Links: Website ; Facebook Breaking the Surface – BTS is a one-of-a-kind summer workshop organized for the past 10 years on the Adriatic Coast...
+        </description>
+        <pubDate>Sat, 25 May 2019 00:00:00 -0700</pubDate>
+        <link>http://icra-2019-uwroboticsperception.ge.issia.cnr.it//2019-05-25-events/</link>
+        <guid isPermaLink="true">http://icra-2019-uwroboticsperception.ge.issia.cnr.it//2019-05-25-events/</guid>
+      </item>
+    
+      <item>
+        <title>Best workshop papers</title>
+        <description>
+          Each main author received an NVIDIA Jetson Nano Development Kit - 
+          Best workshop paper awards
+
+
+
+
+
+
+
+
+        </description>
+        <pubDate>Fri, 24 May 2019 00:00:00 -0700</pubDate>
+        <link>http://icra-2019-uwroboticsperception.ge.issia.cnr.it//2019-05-24-bestpapers/</link>
+        <guid isPermaLink="true">http://icra-2019-uwroboticsperception.ge.issia.cnr.it//2019-05-24-bestpapers/</guid>
+      </item>
+    
+      <item>
+        <title>Accepted Papers</title>
+        <description>
+          
+          Download all accepted papers HERE Or click on each paper title to download them individually Congratulations to the best workshop papers – find them HERE – NVIDIA Jetson Nano Developer Kit Title Authors Institution Seeing through Water: From Underwater Image Synthesis to Generative Adversarial Networks based Underwater Single Image EnhancementKeywords:...
+        </description>
+        <pubDate>Wed, 17 Apr 2019 00:00:00 -0700</pubDate>
+        <link>http://icra-2019-uwroboticsperception.ge.issia.cnr.it//2019-04-17-acceptedpapers/</link>
+        <guid isPermaLink="true">http://icra-2019-uwroboticsperception.ge.issia.cnr.it//2019-04-17-acceptedpapers/</guid>
+      </item>
+    
+      <item>
+        <title>Overview</title>
+        <description>
+          No light? No texture? Noisy data? - 
+          MAIN TOPICS Object detection and recognition in different sensor domains (stereo vision, lasers, acoustic sensors i.e. sonars, multibeam). Image enhancement and distortion removal (dehazing, color correction). Sensor fusion and signal processing. Environment modeling (bathymetry, 3D representation and mapping, SLAM). Simulated environments and continuous system integration (hardware-in-the-loop, synthetic data generation, simulation...
+        </description>
+        <pubDate>Sat, 12 Jan 2019 00:00:00 -0800</pubDate>
+        <link>http://icra-2019-uwroboticsperception.ge.issia.cnr.it//2019-01-12-overview/</link>
+        <guid isPermaLink="true">http://icra-2019-uwroboticsperception.ge.issia.cnr.it//2019-01-12-overview/</guid>
+      </item>
+    
+      <item>
+        <title>Invited Speakers</title>
+        <description>
+          
+          Speakers shown in alphabetical order. Download presentation slides HERE. Prof. AndreasBirk (TBC) Jacobs University Bremen Underwater Perception using Continuous System Integration &amp;amp; Human in the Loop Deep-sea robot operations and diver missions demand a high level of safety, efficiency and reliability. As a consequence, measures within the development stage have...
+        </description>
+        <pubDate>Thu, 10 Jan 2019 00:00:00 -0800</pubDate>
+        <link>http://icra-2019-uwroboticsperception.ge.issia.cnr.it//2019-01-10-speakers/</link>
+        <guid isPermaLink="true">http://icra-2019-uwroboticsperception.ge.issia.cnr.it//2019-01-10-speakers/</guid>
+      </item>
+    
+      <item>
+        <title>Program - Schedule</title>
+        <description>
+          
+          Download PROGRAM HERE
+Download keynote presentations HERE
+
+Keynote talk: 30 min + 10 min Q&amp;amp;A                                              
+Spotlight talks: 12 min + 3 min Q&amp;amp;A                           
+Lightning talks: 5 min
+
+
+
+
+
+
+        </description>
+        <pubDate>Wed, 09 Jan 2019 00:00:00 -0800</pubDate>
+        <link>http://icra-2019-uwroboticsperception.ge.issia.cnr.it//2019-01-09-program/</link>
+        <guid isPermaLink="true">http://icra-2019-uwroboticsperception.ge.issia.cnr.it//2019-01-09-program/</guid>
+      </item>
+    
+      <item>
+        <title>Call for Papers</title>
+        <description>
+          Deadline April 12th, 2019. PT time - 
+          IMPORTANT DATES Paper submission April 1st April 12th, 2019. 23:59 PT time Author notification April 15-30th, 2019. (Rolling basis) Camera-ready submission May 13th, 2019. 23:59 PT time Main conference May 24th, 2019 Submission link HERE NEW!!! The 3 best papers’ authors will receive the latest NVIDIA Jetson Nano Developer Kit...
+        </description>
+        <pubDate>Sun, 06 Jan 2019 00:00:00 -0800</pubDate>
+        <link>http://icra-2019-uwroboticsperception.ge.issia.cnr.it//2019-01-06-papercall/</link>
+        <guid isPermaLink="true">http://icra-2019-uwroboticsperception.ge.issia.cnr.it//2019-01-06-papercall/</guid>
+      </item>
+    
+  </channel>
+</rss>

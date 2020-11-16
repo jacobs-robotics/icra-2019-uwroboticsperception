@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 -->
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Underwater Robotics Perception Workshop - ICRA 2019 - Full-day Workshop</title>
+
+  <meta name="author" content="MSc. Arturo Gomez Chavez -- Dr. Enrica Zereik" />
+
+  
+  <meta name="description" content="WORKSHOP - IEEE ICRA 2019 <br> Montreal, Quebec May 24th, 2019">
+  
+
+  <link rel="alternate" type="application/rss+xml" title="Underwater Robotics Perception Workshop - ICRA 2019 - Full-day Workshop" href="/feed.xml" />
+
+  
+
+  
+    
+      
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" />
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    
+      <link rel="stylesheet" href="/css/bootstrap-social.css" />
+    
+      <link rel="stylesheet" href="/css/main.css" />
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+    
+  
+
+  
+
+  
+
+  
+
+    <!-- Facebook OpenGraph tags -->
+  
+
+  
+  <meta property="og:title" content="UNDERWATER ROBOTICS PERCEPTION" />
+  
+
+   
+  <meta property="og:description" content="WORKSHOP - IEEE ICRA 2019 <br> Montreal, Quebec May 24th, 2019">
+  
+
+
+  <meta property="og:type" content="website" />
+
+  
+  <meta property="og:url" content="http://icra-2019-uwroboticsperception.ge.issia.cnr.it//page2/" />
+  <link rel="canonical" href="http://icra-2019-uwroboticsperception.ge.issia.cnr.it//page2/" />
+  
+
+  
+  <meta property="og:image" content="http://icra-2019-uwroboticsperception.ge.issia.cnr.it//img/ws_logo/icra-ws-urp-logo.png" />
+  
+
+
+  <!-- Twitter summary cards -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@" />
+  <meta name="twitter:creator" content="@" />
+
+  
+  <meta name="twitter:title" content="UNDERWATER ROBOTICS PERCEPTION" />
+  
+
+  
+  <meta name="twitter:description" content="WORKSHOP - IEEE ICRA 2019 <br> Montreal, Quebec May 24th, 2019">
+  
+
+  
+  <meta name="twitter:image" content="http://icra-2019-uwroboticsperception.ge.issia.cnr.it//img/ws_logo/icra-ws-urp-logo.png" />
+  
+
+  
+
+</head>
+
+
+  <body>
+
+    
+  
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+        <a class="navbar-brand navbar-brand-logo" href="http://icra-2019-uwroboticsperception.ge.issia.cnr.it/"><img src="/img/university-logos.png"/></a>
+      
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+          <li>
+            
+
+
+
+
+
+
+<a href="http://icra-2019-uwroboticsperception.ge.issia.cnr.it/2019-01-12-overview/">Overview</a>
+
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Program</a>
+            <div class="navlinks-children">
+              
+                
+                  
+
+
+
+
+
+
+<a href="http://icra-2019-uwroboticsperception.ge.issia.cnr.it/2019-01-10-speakers/">Speakers</a>
+
+                
+              
+                
+                  
+
+
+
+
+
+
+<a href="http://icra-2019-uwroboticsperception.ge.issia.cnr.it/2019-01-09-program/">Schedule</a>
+
+                
+              
+                
+                  
+
+
+
+
+
+
+<a href="http://icra-2019-uwroboticsperception.ge.issia.cnr.it/2019-05-26-presentations/">Presentations</a>
+
+                
+              
+            </div>
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Papers</a>
+            <div class="navlinks-children">
+              
+                
+                  
+
+
+
+
+
+
+<a href="http://icra-2019-uwroboticsperception.ge.issia.cnr.it/2019-01-06-papercall/">Authors Info</a>
+
+                
+              
+                
+                  
+
+
+
+
+
+
+<a href="http://icra-2019-uwroboticsperception.ge.issia.cnr.it/2019-04-17-acceptedpapers/">Accepted Papers</a>
+
+                
+              
+                
+                  
+
+
+
+
+
+
+<a href="http://icra-2019-uwroboticsperception.ge.issia.cnr.it/2019-05-24-bestpapers/">Best paper awards</a>
+
+                
+              
+            </div>
+          </li>
+        
+        
+        
+          <li>
+            
+
+
+
+
+
+
+<a href="http://icra-2019-uwroboticsperception.ge.issia.cnr.it/2019-05-25-events/">Events/Jobs</a>
+
+          </li>
+        
+        
+        
+          <li>
+            
+
+
+
+
+
+
+<a href="http://icra-2019-uwroboticsperception.ge.issia.cnr.it/2019-05-28-conclusions/">Conclusions</a>
+
+          </li>
+        
+        
+        
+          <li>
+            
+
+
+
+
+
+
+<a href="/organizers">Organizers</a>
+
+          </li>
+        
+        
+      </ul>
+    </div>
+
+	
+	<div class="avatar-container">
+	  <div class="avatar-img-border">
+	    <a href="http://icra-2019-uwroboticsperception.ge.issia.cnr.it/ ">
+	      <img class="avatar-img" src="/img/ws_logo/icra-ws-urp-logo.png" />
+		</a>
+	  </div>
+	</div>
+	
+
+  </div>
+</nav>
+
+
+    <!-- TODO this file has become a mess, refactor it -->
+
+
+
+
+  <div id="header-big-imgs" data-num-img=6
+    
+	  
+	  
+	    
+		  data-img-src-1="/img/uw_bg_1.jpg"
+		
+	  
+    
+	  
+	  
+	    
+		  data-img-src-2="/img/CADDY_bts_cetvrtak_138.jpg"
+		
+	  
+    
+	  
+	  
+	    
+		  data-img-src-3="/img/pladypus.jpg"
+		
+	  
+    
+	  
+	  
+	    
+		  data-img-src-4="/img/gazebo_dexrov.png"
+		
+	  
+    
+	  
+	  
+	    
+		  data-img-src-5="/img/rov_dexrov.jpg"
+		
+	  
+    
+	  
+	  
+	    
+		  data-img-src-6="/img/sonar_caddy.png"
+		
+	  
+    
+  ></div>
+
+
+<header class="header-section has-img">
+
+<div class="big-img intro-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="page-heading">
+          <a href="/" style="color: #DDDDFF ;text-decoration: none; border: none 0px rgba(255, 0, 0, .5);">
+          <h1>UNDERWATER ROBOTICS PERCEPTION</h1>
+		  
+		    
+            <hr class="small">
+            <span class="page-subheading">WORKSHOP - IEEE ICRA 2019 <br> Montreal, Quebec May 24th, 2019</span>
+			
+		  
+		  
+		  
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <span class='img-desc'></span>
+</div>
+
+<div class="intro-header no-img">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="page-heading">
+          <a href="/" style="color: #DDDDFF ;text-decoration: none; text-shadow: 0px 0px; border: none 0px rgba(0, 0, 0, .5);">
+          <h1>UNDERWATER ROBOTICS PERCEPTION</h1>
+		  
+		    
+            <hr class="small">
+            <span class="page-subheading">WORKSHOP - IEEE ICRA 2019 <br> Montreal, Quebec May 24th, 2019</span>
+			
+		  
+		  
+		  
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+
+
+
+
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+html {
+  box-sizing: border-box;
+}
+
+
+#wrapper {
+    width: 95%;
+    text-align: center;
+    overflow: hidden; /* add this to contain floated children */
+}
+#first {
+    width: 50%;
+    float:left; /* add this */
+}
+#first_b {
+    width: 30%;
+    float:left; /* add this */
+}
+#second {
+    overflow: hidden /* add this */
+}
+#second_b {
+	width: 30%;
+    overflow: hidden /* add this */
+}
+#third {
+    overflow: hidden /* add this */
+}
+#third_b {
+	width: 30%;
+    overflow: hidden /* add this */
+}
+.center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+.noBorder {
+    border:none !important;
+}
+</style>
+</head>
+
+<!--img src="/img/all_partners.png" alt="all_partners" style="width:100%"-->
+
+<!--table border="0">
+  <tr class="noBorder">
+    <td class="noBorder"><a href="http://www.cmre.nato.int/"><img src="/img/cmre_2.png" alt="log_cmre" /></td>
+    <td class="noBorder"><a href="https://robotik.dfki-bremen.de/en/startpage.html"><img src="/img/dfki_2.png" alt="logo_dfki" /></a></td>
+  </tr>
+</table-->
+
+<div id="wrapper" class="center">
+    <div id="first"><a href="http://robotics.jacobs-university.de/"><img src="/img/Logo_Jacobs_University.png" alt="Logo1" /></a></div>
+    <div id="second"><a href="http://www.issia.cnr.it/wp/"><img src="/img/issia-cnr-logo.png" alt="Logo2" /></a></div>
+</div>
+
+<div class="posts-list">
+  
+  <article class="post-preview">
+    <a href="/2019-01-12-overview/">
+	  <h2 class="post-title">Overview</h2>
+
+	  
+	  <h3 class="post-subtitle">
+	    No light? No texture? Noisy data?
+	  </h3>
+	  
+    </a>
+
+    <p class="post-meta">
+      Posted on January 12, 2019
+    </p>
+
+    <div class="post-entry-container">
+      
+	  <div class="post-entry">
+          <a href="/2019-01-12-overview/" class="post-read-more">[Read&nbsp;More]</a>
+      </div>
+      <!--div class="post-entry">
+        MAIN TOPICS Object detection and recognition in different sensor domains (stereo vision, lasers, acoustic sensors i.e. sonars, multibeam). Image enhancement and distortion removal (dehazing, color correction). Sensor fusion and signal processing. Environment modeling (bathymetry, 3D representation and mapping, SLAM). Simulated environments and continuous system integration (hardware-in-the-loop, synthetic data generation, simulation...
+        
+        
+          <a href="/2019-01-12-overview/" class="post-read-more">[Read&nbsp;More]</a>
+        
+      </div-->
+    </div>
+
+    
+
+   </article>
+  
+  <article class="post-preview">
+    <a href="/2019-01-10-speakers/">
+	  <h2 class="post-title">Invited Speakers</h2>
+
+	  
+    </a>
+
+    <p class="post-meta">
+      Posted on January 10, 2019
+    </p>
+
+    <div class="post-entry-container">
+      
+	  <div class="post-entry">
+          <a href="/2019-01-10-speakers/" class="post-read-more">[Read&nbsp;More]</a>
+      </div>
+      <!--div class="post-entry">
+        
+
+
+
+
+        
+        
+          <a href="/2019-01-10-speakers/" class="post-read-more">[Read&nbsp;More]</a>
+        
+      </div-->
+    </div>
+
+    
+
+   </article>
+  
+  <article class="post-preview">
+    <a href="/2019-01-09-program/">
+	  <h2 class="post-title">Program - Schedule</h2>
+
+	  
+    </a>
+
+    <p class="post-meta">
+      Posted on January 9, 2019
+    </p>
+
+    <div class="post-entry-container">
+      
+	  <div class="post-entry">
+          <a href="/2019-01-09-program/" class="post-read-more">[Read&nbsp;More]</a>
+      </div>
+      <!--div class="post-entry">
+        Download PROGRAM HERE
+Download keynote presentations HERE
+
+
+        
+        
+          <a href="/2019-01-09-program/" class="post-read-more">[Read&nbsp;More]</a>
+        
+      </div-->
+    </div>
+
+    
+
+   </article>
+  
+  <article class="post-preview">
+    <a href="/2019-01-06-papercall/">
+	  <h2 class="post-title">Call for Papers</h2>
+
+	  
+	  <h3 class="post-subtitle">
+	    Deadline April 12th, 2019. PT time
+	  </h3>
+	  
+    </a>
+
+    <p class="post-meta">
+      Posted on January 6, 2019
+    </p>
+
+    <div class="post-entry-container">
+      
+	  <div class="post-entry">
+          <a href="/2019-01-06-papercall/" class="post-read-more">[Read&nbsp;More]</a>
+      </div>
+      <!--div class="post-entry">
+        
+  
+    IMPORTANT DATES
+     
+  
+  
+    Paper submission
+    April 1st April 12th, 2019. 23:59 PT time
+  
+  
+    Author notification
+    April 15-30th, 2019. (Rolling basis)
+  
+  
+    Camera-ready submission
+    May 13th, 2019. 23:59 PT time
+  
+  
+    Main conference
+    May 24th, 2019
+  
+
+
+
+        
+        
+          <a href="/2019-01-06-papercall/" class="post-read-more">[Read&nbsp;More]</a>
+        
+      </div-->
+    </div>
+
+    
+
+   </article>
+  
+</div>
+
+
+<ul class="pager main-pager">
+  
+  <li class="previous">
+    <a href="/">&larr; Newer Posts</a>
+  </li>
+  
+  
+</ul>
+
+
+	    
+    </div>
+  </div>
+</div>
+
+
+    <footer>
+  <div class="container beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links"><li><a href="mailto:a.gomezchavez@jacobs-university.de" title="Email me"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Email me</span>
+              </a>
+            </li></ul>
+      <p class="copyright text-muted">
+      MSc. Arturo Gomez Chavez -- Dr. Enrica Zereik
+      &nbsp;&bull;&nbsp;
+      2020
+
+      
+      &nbsp;&bull;&nbsp;
+      <a href="http://icra-2019-uwroboticsperception.ge.issia.cnr.it/">IEEE-ICRA2019-UW-Perception.com</a>
+      
+
+      
+      </p>
+          <!-- Please don't remove this, keep my open source work credited :) -->
+    <p class="theme-by text-muted">
+      Theme by
+      <a href="http://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
+    </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  
+    
+
+
+
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script>
+      	if (typeof jQuery == 'undefined') {
+      	  document.write('<script src="/js/jquery-1.11.2.min.js"></scr' + 'ipt>');
+      	}
+      </script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/bootstrap.min.js"></script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/main.js"></script>
+    
+  
+
+
+
+	<!-- Google Analytics -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-134776668-1', 'auto');
+		ga('set', 'anonymizeIp', true);
+		ga('send', 'pageview');
+	</script>
+	<!-- End Google Analytics -->
+
+
+
+  
+  </body>
+</html>
